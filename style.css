@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100");
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  
+  margin: 0;
+  padding: 0;
+  background: #000000;
+  color: #fff;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+}
+/* div
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) skewY(-5deg);
+    border: 4px solid #fff;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #1eff4e, 
+                0 0 30px #1eff4e,
+                inset 0 0 10px #1eff4e, 
+                inset 0 0 30px #1eff4e;
+    animation: animate .1s linear infinite;
+} 
+div:before
+{
+    content: '';
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #fff;
+    box-shadow: 0 0 10px #1eff4e, 0 0 30px #1eff4e;
+    z-index: -1;
+}
+div:after
+{
+    content: '';
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #fff;
+    box-shadow: 0 0 10px #1eff4e, 0 0 30px #1eff4e;
+    z-index: -1;
+}*/
+
+button{all: unset;}
+
+h1 {
+  /* background-color: linear-gradient(to top,#50E3C2,#000000); */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 4em;
+  color: #fff;
+  margin-top: 30px;
+  text-shadow:  0 0 10px #50E3C2, 
+                0 0 20px #50E3C2, 
+                0 0 80px #50E3C2,
+                0 0 120px #50E3C2;
+}
+h2{
+  text-shadow:  0 0 10px #50E3C2, 
+                0 0 20px #50E3C2, 
+                0 0 80px #50E3C2,
+                0 0 120px #50E3C2;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+form{
+  text-align: center;
+}
+input{
+  padding: 15px;
+  border-radius: 6px;
+  width: 35vw;
+  font-size: 21px;
+  text-align: center;
+  
+}
+
+p{
+  font-size: 20px;
+}
+
+.task {
+  border: 2px solid red;
+  text-shadow:  0 0 10px #33719A,
+                0 0 20px #33719A, 
+                0 0 80px #33719A,
+                0 0 120px #33719A;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 70vw;
+  padding: 20px;
+  border-bottom: 3px solid #fff;
+  display: flex;
+  justify-content: space-between;
+
+
+  background: rgba( 80, 227, 194, 0.75 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 15px );
+-webkit-backdrop-filter: blur( 15px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+border-bottom: 3px solid #fff;
+
+}
+/* 
+
+h1 span {
+  animation: animate 0.5s linear infinite;
+}
+h1 span:nth-child(1) {
+  animation-delay: 0.25s;
+}
+h1 span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+h1 span:nth-child(3) {
+  animation-delay: 0.35s;
+}
+h1 span:nth-child(4) {
+  animation-delay: 0.4s;
+}
+@keyframes animate {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+ */
+
+ 
+ 
+ .icon:hover{
+  font-size: 26px;
+  transition: 0.2s;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.icon-star-full ,.icon-bin ,.icon-evil2{
+  opacity: 0.4;
+  font-size: 27px;
+
+}
+.icon-star-full:hover{
+  color: orange;
+  opacity: 1;
+  font-size: 29px;
+}
+.icon-bin{
+  margin-right: 30px;
+  font-size: 27px;
+}
+.icon-bin:hover{
+  color: #9B9B9B ;
+  opacity: 1;
+  font-size: 29px;
+}
+.icon-evil2{
+  font-size: 27px;
+  
+}
+.icon-evil2:hover{
+  color: rgb(111, 21, 202);
+  opacity: 1;
+  font-size: 29px;
+}
+.icon-heart{
+  color: red;
+  opacity: 1;
+  font-size: 29px;
+}
+
+
+
+
+.icon-upload{
+  position: relative;
+  color: #fff ;
+  font-size: 40px;
+  margin-left: 17px;
+  padding-top: 20px;
+  top: 10px;
+}
+ .icon-upload:hover{
+  color: #50E3C2;
+  opacity: 0.2s;
+  font-size: 45px;
+  transition: 0.2s;
+  cursor: pointer;
+} 
+
+
+.dn{
+  display: none;
+}
+
+.finish{
+  text-decoration: line-through;
+}
+.orange{
+  color: orange;
+  opacity: 1;
+}
